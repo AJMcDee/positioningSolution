@@ -2,5 +2,35 @@ html, body {
     margin: 0;
     padding: 0;
     height: 100%;
+    /* overflow: hidden; */
 }
-
+div {
+    width: 200px;
+    height: 200px;
+}
+.halloworld {
+    position: relative;
+    text-align: center;
+    background-color: orange;
+    margin: 0 auto;
+    /* margin: calc(50vh - 100px) auto; vertical center */
+    text-align: center;
+    left: 5px;
+    top: 7px;
+}
+.box1 {
+    background-color:red;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+.box2, .box3 {
+    background-color:rgb(0, 255, 85);
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+.box3 {
+    background-color:rgb(0, 183, 255);
+    z-index: -1;
+}
